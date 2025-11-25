@@ -1,27 +1,81 @@
- 
-<div align="center">
-
-# 🎰 Jackpot @bolao.animal
-<img src="BA.png" alt="Logo Bolão Animal" width="150">
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-brightgreen?logo=fastapi&logoColor=white)
-![Render](https://img.shields.io/badge/Deployed%20on-Render-orange?logo=render&logoColor=white)
-
-This is a simple game I developed for our betting group. 
-The game was developed in two parts: frontend and backend. 
-For the html frontend, I used a lot of AI (such as ChatGPT and Grok) help 🤪. 
-For the backend, I basically used python. 
-After that, I deployed it both on github and render so that we could host it and have the game online for anyone with the link to play ▶. 
-Basically, the person accesses the link, adds their e-mail (we only use the e-mail to receive a message with the date and time of the winner) 
-and clicks on play 🎮, the numbers are drawn randomly between 1 and 5 (which results in a probability of 1 to 125 of winning 🏆), 
-if the 3 numbers are the same the player wins the jackpot and wins a special bet for some lottery 🎁
-
-## 🚀 Fast demo
-[Give it a try!](https://jackpot-k8n0.onrender.com)
-
-</div>
-
-## ⭐ Star if you liked! 🐶😺🍀
-#BolaoAnimal 
-#PythonGames
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎰 Jackpot @bolao.animal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+        .badges {
+            margin: 20px 0;
+        }
+        .badges img {
+            margin: 0 10px;
+            height: 25px;
+        }
+        .demo-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        .demo-btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎰 Jackpot @bolao.animal</h1>
+        <img src="BA.png" alt="Logo Bolão Animal" class="logo">
+        
+        <div class="badges">
+            <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">
+            <img src="https://img.shields.io/badge/FastAPI-0.104%2B-brightgreen?logo=fastapi&logoColor=white" alt="FastAPI">
+            <img src="https://img.shields.io/badge/Deployed%20on-Render-orange?logo=render&logoColor=white" alt="Render">
+        </div>
+        
+        <p>Este é um jogo simples que desenvolvi para o nosso grupo de bolão. O jogo foi criado em duas partes: frontend e backend.</p>
+        <p>Para o frontend em HTML, usei muita ajuda de IA (como ChatGPT e Grok) 🤪. Para o backend, usei basicamente Python.</p>
+        <p>Depois, deployei no GitHub e no Render para hospedar o jogo online. Qualquer um com o link pode jogar ▶.</p>
+        <p>Basicamente, a pessoa acessa o link, adiciona o e-mail (usamos só para mandar uma mensagem com a data e hora do vencedor) e clica em jogar 🎮. Os números são sorteados aleatoriamente entre 1 e 5 (probabilidade de 1 em 125 de ganhar 🏆). Se os 3 números forem iguais, o jogador ganha o jackpot e uma aposta especial para alguma loteria 🎁.</p>
+        
+        <h2>🚀 Teste rápido</h2>
+        <a href="https://jackpot-k8n0.onrender.com" class="demo-btn" target="_blank">Jogue agora! 🎮</a>
+        
+        <footer>
+            <p>⭐ Curtiu? Dê uma estrela! 🐶😺🍀</p>
+            <p>#BolaoAnimal #PythonGames</p>
+        </footer>
+    </div>
+</body>
+</html>
