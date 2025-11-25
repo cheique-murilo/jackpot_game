@@ -1,0 +1,5 @@
+# Linguagem principal
+*.py    linguist-language=Python
+
+# Ignorar arquivos HTML, se houver muitos, para não dominar as estatísticas
+*.html  linguist-vendored
